@@ -19,7 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "assets/styles/bootstrap.css",
+        "assets/styles/card.css",
+        "assets/styles/map.css",
+        "assets/styles/new-age.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -52,6 +55,9 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {},
+    "serve":{
+      "port":8001
+    }
   }
 }
